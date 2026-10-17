@@ -111,8 +111,7 @@ jobs:
         chmod +x SCRIPTS/*.sh
         cd openwrt
         $GITHUB_WORKSPACE/SCRIPTS/01_get_ready.sh
-        $GITHUB_WORKSPACE/SCRIPTS/02_add_device.sh
-        $GITHUB_WORKSPACE/SCRIPTS/03_prepare_package.sh
+        $GITHUB_WORKSPACE/SCRIPTS/02_prepare_package.sh
 
     - name: 下载软件包
       id: package
