@@ -30,8 +30,8 @@ function git_sparse_clone() {
 
 # 常见插件
 git_sparse_clone main https://github.com/sbwml/openwrt_pkgs luci-app-zerotier
-git_sparse_clone main https://github.com/Kwonelee/openwrt-packages filebrowser luci-app-filebrowser-go
-FB_VERSION="$(curl -s https://github.com/filebrowser/filebrowser/tags | grep -Eo 'v[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 | sed 's/^v//')"
-sed -i "s/2.54.0/$FB_VERSION/g" package/new/filebrowser/Makefile
+#git_sparse_clone main https://github.com/Kwonelee/openwrt-packages filebrowser luci-app-filebrowser-go
+#FB_VERSION="$(curl -s https://github.com/filebrowser/filebrowser/tags | grep -Eo 'v[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 | sed 's/^v//')"
+#sed -i "s/2.54.0/$FB_VERSION/g" package/new/filebrowser/Makefile
 # 自定义DIY⬆⬆⬆
 # ============================================================================================================
