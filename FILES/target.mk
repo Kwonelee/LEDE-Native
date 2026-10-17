@@ -56,7 +56,7 @@ DEFAULT_PACKAGES.router:=\
 	dnsmasq-full firewall4 nftables-json iptables ppp ppp-mod-pppoe odhcp6c odhcpd-ipv6only ip6tables libip6tc kmod-ipt-nat6 \
 	block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun \
 	iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-proto-ipv6 \
-	luci-app-turboacc luci-app-wol curl ca-certificates \
+	luci-app-turboacc curl ca-certificates \
 	kmod-sched-core kmod-sched-bpf kmod-xdp-sockets-diag kmod-veth
 
 ifneq ($(DUMP),)
