@@ -1,4 +1,4 @@
-name: Build LEDE
+name: Build LEDE Rootfs
 
 on:
   repository_dispatch:
