@@ -8,6 +8,3 @@ sed -i 's/default "LEDE"/default "OpenWrt"/g' package/base-files/image-config.in
 sed -i 's/LEDE/OpenWrt/g' package/base-files/image-config.in
 sed -i 's/lede/openwrt/g' package/base-files/image-config.in
 sed -i 's/LEDE/OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
-
-# 使用6.18内核
-#sed -i "s/6.12/6.18/g" target/linux/rockchip/Makefile
