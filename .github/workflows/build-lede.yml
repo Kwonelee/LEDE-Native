@@ -1,4 +1,4 @@
-name: Build LeeFcm
+name: Build LEDE
 
 on:
   repository_dispatch:
