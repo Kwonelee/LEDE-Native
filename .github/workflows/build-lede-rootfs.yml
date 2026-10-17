@@ -168,10 +168,10 @@ jobs:
       id: tag
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "release_tag=$(date +"%Y.%m.%d-%H.%M")-${{ matrix.ARCHITECTURE }}" >> ${GITHUB_OUTPUT}
+        echo "release_tag=LEDE-ImageBuilde" >> ${GITHUB_OUTPUT}
         touch release.txt
         echo "
-        🖥️ Architecture: generic-${{ matrix.ARCHITECTURE }}
+        🖥️ Architecture: ${{ matrix.ARCHITECTURE }}-generic
 
         📂 Source Code: ${{ env.REPO_URL }}
 
