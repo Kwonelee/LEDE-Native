@@ -56,23 +56,7 @@ DEFAULT_PACKAGES.router:=\
 	dnsmasq-full firewall iptables ppp ppp-mod-pppoe odhcp6c odhcpd-ipv6only ip6tables libip6tc kmod-ipt-nat6 \
 	block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun \
 	iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-proto-ipv6 \
-	luci-app-turboacc luci-app-wol curl ca-certificates \
-	fwxd \
-	kmod-fwx \
-	libfwx_common \
-	luci-theme-fanchmwrt \
-	luci-app-fwx-appfilter \
-	luci-app-fwx-dashboard \
-	luci-app-fwx-feature \
-	luci-app-fwx-macfilter \
-	luci-app-fwx-network \
-	luci-app-fwx-record \
-	luci-app-fwx-resources \
-	luci-app-fwx-user \
-	luci-app-fwx-dashboard-setting \
-	luci-app-fwx-session-stat \
-	luci-app-fwx-user-record \
-	luci-app-fwx-system
+	luci-app-turboacc luci-app-wol curl ca-certificates
 
 ifneq ($(DUMP),)
   all: dumpinfo
