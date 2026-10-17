@@ -171,7 +171,7 @@ jobs:
         echo "release_tag=$(date +"%Y.%m.%d-%H.%M")-${{ matrix.ARCHITECTURE }}" >> ${GITHUB_OUTPUT}
         touch release.txt
         echo "
-        🖥️ Architecture: rockchip-${{ matrix.ARCHITECTURE }}
+        🖥️ Architecture: generic-${{ matrix.ARCHITECTURE }}
 
         📂 Source Code: ${{ env.REPO_URL }}
 
