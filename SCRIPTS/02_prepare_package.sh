@@ -9,14 +9,6 @@ sed -i 's/procd_set_param stderr 1/procd_set_param stderr 0/g' feeds/packages/ut
 # default LAN IP
 sed -i "s/192.168.1.1/192.168.5.88/g" package/base-files/files/bin/config_generate
 
-# golang 1.27
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 27.x feeds/packages/lang/golang
-
-# node - prebuilt
-rm -rf feeds/packages/lang/node
-git clone https://github.com/sbwml/feeds_packages_lang_node -b packages-24.10 feeds/packages/lang/node
-
 # zerotier
 rm -rf feeds/packages/net/zerotier
 git clone https://github.com/sbwml/feeds_packages_net_zerotier feeds/packages/net/zerotier
