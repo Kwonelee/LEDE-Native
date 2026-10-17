@@ -4,7 +4,7 @@
 cp -f $GITHUB_WORKSPACE/FILES/banner package/base-files/files/etc/banner
 cp -f $GITHUB_WORKSPACE/FILES/target.mk include/target.mk
 sed -i "s/hostname='LEDE'/hostname='OpenWrt'/g" package/base-files/files/bin/config_generate
-#sed -i 's/default "LEDE"/default "OpenWrt"/g' package/base-files/image-config.in
+sed -i 's/default "LEDE"/default "OpenWrt"/g' package/base-files/image-config.in
 sed -i 's/LEDE/OpenWrt/g' package/base-files/image-config.in
 sed -i 's/lede/openwrt/g' package/base-files/image-config.in
 sed -i 's/LEDE/OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
