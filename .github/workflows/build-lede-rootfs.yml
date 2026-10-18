@@ -10,7 +10,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
-  UPLOAD_BIN_DIR: true
+  UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
